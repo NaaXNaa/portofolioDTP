@@ -13,8 +13,6 @@
             scroll-behavior: smooth;
         }
     </style>
-
-
 </head>
 
 <body>
@@ -33,18 +31,18 @@
     <section id="home" style="background-image: url('img/image.jpg');"
         class="h-screen bg-cover bg-black/50 bg-blend-overlay flex items-center justify-center p-10 relative">
         <div class="absolute inset-0 backdrop-blur-[5px]"></div>
-        <div class="flex items-center justify-center gap-8 z-10 ">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 z-10">
             <img src="img/lulus.jpg" alt="Logo Aruna" class="w-60 rounded-lg shadow-xl border-4 border-white/20">
-            <div class="text-white max-w-lg">
+            <div class="text-white max-w-lg text-center md:text-left">
                 <h1 class="text-4xl font-extrabold">Hello, I'm Aruna</h1>
                 <p class="text-lg my-5 leading-relaxed">I am a web developer passionate about creating stunning and
                     functional websites using HTML, Tailwind CSS, and JavaScript. Let's build something amazing
                     together!
                 </p>
-                <a href="https://www.canva.com/design/DAF1UToOn4Q/Zn1vWyQyL4lr2VQ8KZFwwg/edit?utm_content=DAF1UToOn4Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank"
+                <a href="../cv/aruna.pdf" target="_blank"
                     class="bg-blue-600 hover:bg-blue-700 transition duration-300 text-white px-6 py-3 rounded-lg font-semibold shadow-md">View
                     My CV</a>
-                <div class="flex items-center gap-5 mt-6">
+                <div class="flex items-center justify-center md:justify-start gap-5 mt-6">
                     <a href="mailto:arunacakep@gmail.com" class="text-white text-2xl hover:text-blue-400 transition"><i
                             class="fa-solid fa-envelope"></i></a>
                     <a href="https://www.linkedin.com/in/aruna-pria-maheswara-5087942ab/" target="_blank"
@@ -60,16 +58,16 @@
         </div>
     </section>
 
-    <section id="about" class="p-40 bg-[#202020] text-white h-screen">
+    <section id="about" class="p-10 md:p-40 bg-[#202020] text-white h-screen">
         <div class="flex justify-center items-center h-full">
-            <div class="max-w-3xl mx-10">
+            <div class="max-w-3xl mx-5">
                 <h2 class="text-3xl font-bold mb-4">👨‍💻 About Me</h2>
                 <p class="text-lg leading-relaxed">
                     Halo! Saya Aruna Pria Maheswara, seorang siswa SMK Telkom Sidoarjo yang memiliki minat besar dalam Pengembangan Web, UI & UX Desainer, atau Data Analisis.
                     Saya senang membangun website modern dan responsif atau pengalaman pengguna yang intuitif, serta terus belajar teknologi terbaru untuk meningkatkan keterampilan saya.
                 </p>
                 
-                <div class="flex gap-[20px]">
+                <div class="flex flex-col md:flex-row gap-10">
                     <div class="mt-10">
                         <h3 class="text-2xl font-semibold mb-2">💡 Soft Skills</h3>
                         <ul class="list-disc pl-5 text-lg leading-relaxed">
@@ -82,7 +80,7 @@
                     <div class="mt-10">
                         <h3 class="text-2xl font-semibold mb-2">🛠 Hard Skills</h3>
                         <ul class="list-disc pl-5 text-lg leading-relaxed">
-                            <li>HTML, CSS (Tailwind CSS), JavaScript, Phyton</li>
+                            <li>HTML, CSS (Tailwind CSS), JavaScript, Python</li>
                             <li>UI/UX Design (Figma)</li>
                             <li>Data Analysis (Excel, Python - Pandas)</li>
                         </ul>
@@ -93,13 +91,13 @@
     </section>
         
 
-    <section id="project" class="p-10 bg-[#141414] text-white h-screen flex flex-col justify-start">
+    <section id="project" class="p-10 bg-[#141414] text-white min-h-screen flex flex-col justify-start ">
         <div class="text-center mt-10">
             <h2 class="text-3xl font-bold mb-8">My Projects</h2>
         </div>
         <div class="flex-grow flex items-center">
             <div class="max-w-4xl mx-auto">
-                <div class="grid md:grid-cols-3 gap-6 justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
                     <div class="bg-white p-4 rounded-lg">
                         <img src="img/project1.png" alt="Project 1" class="w-full h-50 object-cover rounded-md mb-3">
                         <h3 class="font-semibold text-gray-900">Project 1</h3>
@@ -120,9 +118,7 @@
         </div>
     </section>
     
-    
-    
-    <section id="certificate" class="p-10 bg-[#202020] text-white h-screen flex flex-col justify-start">
+    <section id="certificate" class="p-10 bg-[#202020] text-white min-h-screen flex flex-col justify-start">
         <div class="text-center mt-10">
             <h2 class="text-3xl font-bold mb-8">My Certificates</h2>
         </div>
@@ -132,37 +128,37 @@
                     <div class="min-w-[280px] w-[280px] h-auto flex flex-col">
                         <img src="img/certificate1.jpg" alt="Certificate 1" class="w-full h-48 object-cover rounded-tl-lg rounded-tr-lg">
                         <div class="bg-white p-4">
-                            <h3 class="font-semibold text-gray-900 text-center">Certificate 1</h3>
-                            <p class="text-gray-600 text-center">UI/UX Design dengan Figma.</p>
+                            <h3 class="font-semibold text-gray-900 text-center">Dibimbing</h3>
+                            <p class="text-gray-600 text-center">WebDeveloperSeries 1.0</p>
                         </div>
                     </div>
                     <div class="min-w-[280px] w-[280px] h-auto flex flex-col">
                         <img src="img/certificate2.jpg" alt="Certificate 2" class="w-full h-48 object-cover rounded-tl-lg rounded-tr-lg">
                         <div class="bg-white p-4">
-                            <h3 class="font-semibold text-gray-900 text-center">Certificate 2</h3>
-                            <p class="text-gray-600 text-center">UI/UX Design dengan Figma.</p>
+                            <h3 class="font -semibold text-gray-900 text-center">Yayasan Pendidikan Telkom</h3>
+                            <p class="text-gray-600 text-center">Cyber Security Awareness</p>
                         </div>
                     </div>
                     <div class="min-w-[280px] w-[280px] h-auto flex flex-col">
                         <img src="img/certificate3.jpg" alt="Certificate 3" class="w-full h-48 object-cover rounded-tl-lg rounded-tr-lg">
                         <div class="bg-white p-4">
-                            <h3 class="font-semibold text-gray-900 text-center">Certificate 3</h3>
-                            <p class="text-gray-600 text-center">UI/UX Design dengan Figma.</p>
+                            <h3 class="font-semibold text-gray-900 text-center">Badan Bahasa</h3>
+                            <p class="text-gray-600 text-center">Uji Kemahiran Bahasa Indonesia</p>
                         </div>
                     </div>
                     <div class="min-w-[280px] w-[280px] h-auto flex flex-col">
                         <img src="img/certificate4.jpg" alt="Certificate 4" class="w-full h-48 object-cover rounded-tl-lg rounded-tr-lg">
                         <div class="bg-white p-4">
-                            <h3 class="font-semibold text-gray-900 text-center">Certificate 4</h3>
-                            <p class="text-gray-600 text-center">UI/UX Design dengan Figma.</p>
+                            <h3 class="font-semibold text-gray-900 text-center">ID-Networkers</h3>
+                            <p class="text-gray-600 text-center">Jaringan Komputer Dasar.</p>
                         </div>
                     </div>
                     <div class="w-full flex justify-center">
                         <div class="min-w-[280px] w-[280px] h-auto flex flex-col">
                             <img src="img/certificate5.jpg" alt="Certificate 5" class="w-full h-48 object-cover rounded-tl-lg rounded-tr-lg">
                             <div class="bg-white p-4">
-                                <h3 class="font-semibold text-gray-900 text-center">Certificate 5</h3>
-                                <p class="text-gray-600 text-center">UI/UX Design dengan Figma.</p>
+                                <h3 class="font-semibold text-gray-900 text-center">ID-Networkers</h3>
+                                <p class="text-gray-600 text-center">Linux Dasar</p>
                             </div>
                         </div>
                     </div>
@@ -170,11 +166,20 @@
             </div>
         </div>
     </section>
-                    
 
     <footer class="bg-black text-white text-center py-4">
         <p>&copy; 2025 Aruna. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        // JavaScript to toggle the mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
 </body>
 
 </html>
